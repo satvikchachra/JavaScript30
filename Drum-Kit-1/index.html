@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Drum Kit</title>
+</head>
+
+
+<body>
+    <header class="page-title">
+        <b>Drum Kit </b>
+    </header>
+
+    <div class="btn-container">
+        <div data-key="65" class="btn" id="a"><h1>A</h1><br><span>Boom</span></div>
+        <div data-key="83" class="btn" id="s"><h1>S</h1><br><span>Clap</span></div>
+        <div data-key="68" class="btn" id="d"><h1>D</h1><br><span>Hihat</span></div>
+        <div data-key="70" class="btn" id="f"><h1>F</h1><br><span>Kick</span></div>
+        <div data-key="71" class="btn" id="g"><h1>G</h1><br><span>Openhat</span></div>
+        <div data-key="72" class="btn" id="h"><h1>H</h1><br><span>Ride</span></div>
+        <div data-key="74" class="btn" id="j"><h1>J</h1><br><span>Snare</span></div>
+        <div data-key="75" class="btn" id="k"><h1>K</h1><br><span>Tink</span></div>
+        <div data-key="76" class="btn" id="l"><h1>L</h1><br><span>Tom</span></div>
+    </div>
+
+    <div class="img-container">
+        <img src="img/undraw_img.svg">
+    </div>
+
+    <audio data-key="65" src="sounds/boom.wav"></audio>
+    <audio data-key="83" src="sounds/clap.wav"></audio>
+    <audio data-key="68" src="sounds/hihat.wav"></audio>
+    <audio data-key="70" src="sounds/kick.wav"></audio>
+    <audio data-key="71" src="sounds/openhat.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tink.wav"></audio>
+    <audio data-key="76" src="sounds/tom.wav"></audio>
+
+    <footer>
+        <div class="learn-more">To learn more about this challenge, visit <a
+                href="https://javascript30.com">javascript30.com</a>.</div>
+
+        <div class="made-with">
+            Made with ❤️ by <a href="https://github.com/satvikchachra">Satvik Chachra</a>
+        </div>
+
+        <div class="connect-with">
+            Connect with me:
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.github.com/satvikchachra">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.twitter.com/satvik_codes">
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/satvikchachra">
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+    <canvas></canvas>
+
+    <script src="js/main.js"></script>
+    <script src="https://use.fontawesome.com/f307a533b4.js"></script>
+    
+</body>
+
+</html>
