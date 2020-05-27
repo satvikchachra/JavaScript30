@@ -1,0 +1,101 @@
+* {
+    background-color: coral;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    align-items: center;
+}
+
+.page-title {
+    color: bisque;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.clock {
+    height: 300px;
+    width: 300px;
+    border: 5px solid cornsilk;
+    border-radius: 50%;
+    margin: 50px auto;
+    background-color: antiquewhite;
+}
+
+.hand {
+    position: relative;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    border-radius: 40%;
+}
+
+.hour-hand {
+    height: 10px;
+    width: 60px;
+    top: 150px;
+    left: 95px;
+    background-color: #000000;
+    transition: all 0.02s;
+    transition-timing-function: ease-in;
+}
+
+.minute-hand {
+    height: 5px;
+    width: 100px;
+    top: 145px;
+    left: 55px;
+    background-color: #000000;
+    transition: all 0.02s;
+    transition-timing-function: ease-in;
+}
+
+.second-hand {
+    height: 4px;
+    width: 100px;
+    top: 140px;
+    left: 55px;
+    background-color: red;
+    transition: all 0.02s;
+    transition-timing-function: cubic-bezier(0, 3.25, 0.58, 1);
+}
+
+.social-icons {
+    margin: 10px;
+}
+
+.social-icons i {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.connect-with {
+    margin-top: 30px;
+}
+
+.learn-more a {
+    color: purple;
+}
+
+.made-with a {
+    color: purple;
+}
+
+footer {
+    color: honeydew;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.social-icons a:link, a:visited, a:hover, a:active {
+    color: bisque;
+}
