@@ -13,8 +13,8 @@ const setDate = () => {
 
     // Since offset second hand div value is 90 degrees
     const secDegrees = ((sec / 60) * 360) + 90;
-    const minDegrees = ((min / 60) * 360) + 90;
-    const hourDegrees = ((hr / 12) * 360) + 90;
+    const minDegrees = ((min / 60) * 360) + ((sec / 60) * 6) + 90;
+    const hourDegrees = ((hr / 12) * 360) + ((min / 60) * 30) + 90;
 
 
     secondHand.style.transform = `rotate(${secDegrees}deg)`;
