@@ -1,0 +1,37 @@
+:root{
+    --spacing: 10px;
+    --blur: 2px;
+    --base-color: #ff0000;
+}
+*{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    margin: 30px;
+    color: #3700B3;
+}
+.range-container{
+    margin: 0px 0px 30px 0px;
+    color: #121212;
+}
+img{
+    height: 180px;
+    width: 230px;
+    margin: 10px;
+    padding: var(--spacing);
+    background-color: var(--base-color);
+    filter: blur(var(--blur));
+}
+h1 span{
+    color: var(--base-color);
+}
+input[type="range"]{
+    margin: 20px;
+}
+.color-picker{
+    margin: 30px;
+}
