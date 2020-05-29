@@ -1,0 +1,35 @@
+<!DOCTYpE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Update CSS Variables with <span>JS</span></h1>
+    </header>
+
+    <div class="container">
+        <div class="range-container">
+            <h3>Spacing</h3>
+            <input type="range" name="spacing" min="0" max="200" value="10" data-sizing="px">
+            <h3>Blur</h3>
+            <input type="range" name="blur" min="0" max="10" value="2" data-sizing="px">
+        </div>
+
+        <div class="color-picker">
+            <input type="color" name="base-color" value="#ff0000">
+        </div>
+
+        <div class="img-container">
+            <img src="img/building.jpg">
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
