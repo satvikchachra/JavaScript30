@@ -1,12 +1,12 @@
+// Select all input elements -> Node List
 const inputs = document.querySelectorAll('.container input');
-console.log(inputs);
+
 function handleUpdate(){
-    console.log(this.value);
+    // Adds px suffix
     const suffix = this.dataset.sizing || '';
-    console.log(suffix);
+    // Sets Property 
     document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
 }
+
+// On change triggers handleUpdate
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
-inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
-
-
