@@ -6,3 +6,4 @@
 * [Challenge 3](https://satvikchachra.github.io/JavaScript30/03-CSS-Variables/)
 * [Challenge 4](https://satvikchachra.github.io/JavaScript30/04-cardio-01/)
 * [Challenge 5](https://satvikchachra.github.io/JavaScript30/05-Image-Gallery/)
+* [Challenge 6](https://satvikchachra.github.io/JavaScript30/06-Type-Ahead/)
