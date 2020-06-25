@@ -1,0 +1,96 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    text-align: center;
+}
+
+.page-title {
+    margin: 30px 0px 30px 0px;
+    font-size: 50px;
+    color: #121212;
+}
+
+#p {
+    color: #4885ed;
+}
+
+#a {
+    color: #db3236;
+}
+
+#i {
+    color: #f4c20d;
+}
+
+#n {
+    color: #4885ed;
+}
+
+#t {
+    color: #3cba54;
+}
+
+canvas {
+    background-color: #ffffff;
+    margin: 0px 0px 40px 0px;
+    border: 1px solid #121212;
+    box-shadow: 0px 2px 10px;
+}
+
+.social-icons {
+    margin: 10px;
+}
+
+.social-icons i {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.connect-with {
+    margin-top: 30px;
+}
+
+footer a:link, a:visited, a:hover, a:active {
+    color: #1b11e4;
+}
+
+@media screen and (max-width: 768px) {
+    canvas {
+        height: 500px;
+        width: 630px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .page-title {
+        margin: 20px 0px 20px 0px;
+    }
+    canvas {
+        height: 310px;
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .page-title {
+        margin: 20px 0px 20px 0px;
+    }
+    canvas {
+        height: 280px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page-title {
+        margin: 20px 0px 20px 0px;
+    }
+    canvas {
+        height: 250px;
+        width: 250px;
+    }
+}
