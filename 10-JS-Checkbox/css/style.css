@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #edf7f6;
+}
+
+.page-title {
+    margin-top: 30px;
+    font-size: 40px;
+    color: #1b11e4;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.inbox {
+    width: 500px;
+    box-shadow: 10px 10px 10px #51d0de;
+}
+
+.item {
+    display: flex;
+    background-color: #ffffff;
+    border-bottom: 1px solid #3bb9ff;
+    text-align: left;
+}
+
+.item input[type="checkbox"] {
+    margin: 15px;
+}
+
+.item p {
+    /* color: #5252d4; */
+    color: #121212;
+    width: 500px;
+    margin: 0px;
+    padding: 10px;
+    border-left: 1px solid #3bb9ff;
+    font-size: 16px;
+}
+
+input[type="checkbox"]:checked+p {
+    text-decoration: line-through #5252d4;
+    background-color: #f8f8ff;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.social-icons {
+    margin: 10px;
+}
+
+.social-icons i {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.connect-with {
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:link, a:visited, a:hover, a:active {
+    color: #1b11e4;
+}
+
+@media screen and (max-width: 426px) {
+    .page-title {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .container {
+        margin-top: 20px;
+    }
+    .inbox {
+        width: 320px;
+    }
+    .item p {
+        width: 320px;
+        font-size: 14px;
+        padding: 9px;
+    }
+    .item input[type="checkbox"] {
+        margin: 12px;
+    }
+    footer {
+        margin-top: 35px;
+        font-size: 14px;
+    }
+    .connect-with {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .page-title {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .container {
+        margin-top: 20px;
+    }
+    .inbox {
+        width: 320px;
+    }
+    .item p {
+        width: 320px;
+        font-size: 14px;
+        padding: 9px;
+    }
+    .item input[type="checkbox"] {
+        margin: 12px;
+    }
+    footer {
+        margin-top: 35px;
+        font-size: 14px;
+    }
+    .connect-with {
+        margin-top: 15px;
+    }
+    .social-icons{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page-title {
+        margin-top: 12px;
+        font-size: 25px;
+    }
+    .container {
+        margin-top: 12px;
+    }
+    .inbox {
+        width: 250px;
+        box-shadow: 7px 7px 7px #51d0de;
+    }
+    .item p {
+        width: 250px;
+        font-size: 14px;
+        padding: 9px;
+    }
+    .item input[type="checkbox"] {
+        margin: 12px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+    .connect-with {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .social-icons {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+}
