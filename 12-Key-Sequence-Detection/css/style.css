@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #ee82ee;
+    text-align: center;
+}
+
+.page-title {
+    margin: 50px;
+    font-size: xx-large;
+    color: #4b0082;
+}
+
+.img-container img {
+    height: 200px;
+    width: 200px;
+    margin:0px 0px 50px 0px;
+}
+
+.console-text {
+    margin: 30px;
+}
+
+.console-text span {
+    color: #4b0082;
+}
+
+.social-icons {
+    margin: 10px;
+}
+
+.social-icons i {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.connect-with {
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:link, a:visited, a:hover, a:active {
+    color: #4b0082;
+}
+
+@media screen and (max-width:320px) {
+    .console-text {
+        margin: 30px;
+    }
+}
