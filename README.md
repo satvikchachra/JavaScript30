@@ -12,4 +12,5 @@
 * [Challenge 9](https://satvikchachra.github.io/JavaScript30/09-Chrome-Dev-Tools/)
 * [Challenge 10](https://satvikchachra.github.io/JavaScript30/10-JS-Checkbox/)
 * [Challenge 11](https://satvikchachra.github.io/JavaScript30/11-Video-Player/)
-
+* [Challenge 12](https://satvikchachra.github.io/JavaScript30/12-Key-Sequence-Detection/)
+* [Challenge 13](https://satvikchachra.github.io/JavaScript30/13-Slide-In-On-Scroll/)
