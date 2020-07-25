@@ -14,3 +14,5 @@
 * [Challenge 11](https://satvikchachra.github.io/JavaScript30/11-Video-Player/)
 * [Challenge 12](https://satvikchachra.github.io/JavaScript30/12-Key-Sequence-Detection/)
 * [Challenge 13](https://satvikchachra.github.io/JavaScript30/13-Slide-In-On-Scroll/)
+* [Challenge 14](https://satvikchachra.github.io/JavaScript30/14-Array-Reference-Vs-Copying/)
+* [Challenge 15](https://satvikchachra.github.io/JavaScript30/15-Local-Storage/)
