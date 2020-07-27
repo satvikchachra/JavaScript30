@@ -16,3 +16,4 @@
 * [Challenge 13](https://satvikchachra.github.io/JavaScript30/13-Slide-In-On-Scroll/)
 * [Challenge 14](https://satvikchachra.github.io/JavaScript30/14-Array-Reference-Vs-Copying/)
 * [Challenge 15](https://satvikchachra.github.io/JavaScript30/15-Local-Storage/)
+* [Challenge 16](https://satvikchachra.github.io/JavaScript30/16-Mouse-Move-Shadow/)
