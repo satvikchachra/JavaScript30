@@ -6,251 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reduce</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body class="bg-dark-theme">
+    <div class="container mt-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h2 class="text-white">Your Studio</h2>
+                <p class="text-white">
+                    Create. Connect. Impact.
+                </p>
+            </div>
+            <div>
+                <button type="button" id="result-btn" class="btn btn-light btn-lg font-weight-bold">Press</button>
+            </div>
+        </div>
+        <ul class="list-group"></ul>
+    </div>
 
-    <ul class="list-group">
-        <li data-time="5:43" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 1
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="2:33" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 2
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:45" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 3
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="0:47" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 4
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="5:21" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 5
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="6:56" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 6
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:46" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 7
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="5:25" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 8
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:14" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 9
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:31" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 10
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="5:59" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 11
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:07" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 12
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="11:29" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 13
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="8:57" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 14
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="5:49" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 15
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="5:52" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 16
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="5:50" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 17
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="9:13" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 18
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="11:51" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 19
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="7:58" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 20
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="4:40" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 21
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="4:45" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 22
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="6:46" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 23
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="7:24" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 24
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="7:12" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 25
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="5:23" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 26
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:34" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 27
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="8:22" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 28
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="5:17" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 29
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:10" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 30
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="4:43" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 31
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="19:43" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 32
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="0:47" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 33
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="0:47" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 34
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:14" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 35
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:59" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 36
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="2:43" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 37
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="4:17" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 38
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="6:56" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 39
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:05" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 40
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="2:06" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 41
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="1:59" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 42
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="1:49" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 43
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:36" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 44
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="7:10" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 45
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:44" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 46
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:44" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 47
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="4:36" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 48
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:16" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 49
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="1:10" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 50
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="6:10" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 51
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="2:14" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 52
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="3:44" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 53
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="5:05" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 54
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="6:03" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 55
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="12:39" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 56
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="1:56" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 57
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-        <li data-time="4:04" class="list-group-item d-flex justify-content-between align-items-center">
-            Video 58
-            <span class="badge badge-primary badge-pill">12</span>
-        </li>
-    </ul>
+    <footer>
+        <div class="learn-more">To learn more about this challenge, visit <a
+                href="https://javascript30.com">javascript30.com</a>.</div>
+
+        <div class="made-with">
+            Made with ❤️ by <a href="https://github.com/satvikchachra">Satvik Chachra</a>
+        </div>
+
+        <div class="connect-with">
+            Connect with me:
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.github.com/satvikchachra">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.twitter.com/satvik_codes">
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/satvikchachra">
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
 
     <script src="js/main.js"></script>
+    <script src="https://use.fontawesome.com/f307a533b4.js"></script>
+
 </body>
 
 </html>

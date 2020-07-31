@@ -1,0 +1,115 @@
+.bg-dark-theme {
+    background-color: #121212;
+}
+
+.image-container {
+    height: 40%;
+    width: 40%;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.video-description {
+    display: block;
+    height: 40%;
+}
+
+.video-container {
+    display: flex;
+}
+
+.video-title {
+    font-weight: bold;
+}
+
+.video-creator, .video-length {
+    color: #696969;
+}
+
+#result-btn {
+    outline: none;
+    box-shadow: 1px 1px 5px #ffffff;
+}
+
+@media (max-width: 375px) {
+    ul {
+        font-size: 12px;
+    }
+}
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 0;
+}
+
+.social-icons {
+    margin: 10px;
+}
+
+.social-icons i {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.connect-with {
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:link, a:visited, a:hover, a:active {
+    color: #ffffff!important;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 426px) {
+    footer {
+        margin-top: 35px;
+        font-size: 14px;
+    }
+    .connect-with {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    footer {
+        margin-top: 35px;
+        font-size: 14px;
+    }
+    .connect-with {
+        margin-top: 15px;
+    }
+    .social-icons {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    footer {
+        margin-top: 20px;
+    }
+    .connect-with {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .social-icons {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+}
