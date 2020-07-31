@@ -18,3 +18,4 @@
 * [Challenge 15](https://satvikchachra.github.io/JavaScript30/15-Local-Storage/)
 * [Challenge 16](https://satvikchachra.github.io/JavaScript30/16-Mouse-Move-Shadow/)
 * [Challenge 17](https://satvikchachra.github.io/JavaScript30/17-Sort-Without-Articles/)
+* [Challenge 18](https://satvikchachra.github.io/JavaScript30/18-Adding-Up-Times-With-Reduce/)
