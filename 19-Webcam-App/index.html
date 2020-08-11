@@ -9,39 +9,94 @@
 </head>
 
 <body>
+
+    <header>
+        <div class="page-title">
+            Unreal WebCam
+        </div>
+    </header>
+
     <div class="photobooth">
         <div class="controls">
-            <button onClick="takePhoto()">Take Photo</button>
             <div class="rgb">
-                <label for="rmin">Red Min:</label>
-                <input type="range" min=0 max=255 name="rmin">
-                <label for="rmax">Red Max:</label>
-                <input type="range" min=0 max=255 name="rmax">
+                <div class="rgb-title">
+                    Green Screen Controls
+                </div>
+                <div>
+                    <label for="rmin">Red Min:</label>
+                    <input type="range" min=0 max=255 name="rmin">
+                </div>
+                <div>
+                    <label for="rmax">Red Max:</label>
+                    <input type="range" min=0 max=255 name="rmax">
+                </div>
 
                 <br>
 
-                <label for="gmin">Green Min:</label>
-                <input type="range" min=0 max=255 name="gmin">
-                <label for="gmax">Green Max:</label>
-                <input type="range" min=0 max=255 name="gmax">
+                <div>
+                    <label for="gmin">Green Min:</label>
+                    <input type="range" min=0 max=255 name="gmin">
+                </div>
+                <div>
+                    <label for="gmax">Green Max:</label>
+                    <input type="range" min=0 max=255 name="gmax">
+                </div>
 
                 <br>
 
-                <label for="bmin">Blue Min:</label>
-                <input type="range" min=0 max=255 name="bmin">
-                <label for="bmax">Blue Max:</label>
-                <input type="range" min=0 max=255 name="bmax">
+                <div>
+                    <label for="bmin">Blue Min:</label>
+                    <input type="range" min=0 max=255 name="bmin">
+                </div>
+                <div>
+                    <label for="bmax">Blue Max:</label>
+                    <input type="range" min=0 max=255 name="bmax">
+                </div>
             </div>
+        </div>
+
+        <div class="filterControls">
+            <button class="btn" id="rBtn">Red Filter</button>
+            <button class="btn" id="gBtn">Pixel Filter</button>
+            <button class="btn" id="gsBtn">Green Screen</button>
+            <button class="btn" id="nBtn">No Filter</button>
         </div>
 
         <canvas class="photo"></canvas>
         <video class="player"></video>
         <div class="strip"></div>
     </div>
+    <button class="btn" onClick="takePhoto()">Take Photo</button>
 
     <audio class="snap" src="assets/audio/camera-shutter-click.mp3" hidden></audio>
 
+    <footer>
+        <div class="learn-more">To learn more about this challenge, visit <a
+                href="https://javascript30.com">javascript30.com</a>.</div>
+
+        <div class="made-with">
+            Made with ❤️ by <a href="https://github.com/satvikchachra">Satvik Chachra</a>
+        </div>
+
+        <div class="connect-with">
+            Connect with me:
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.github.com/satvikchachra">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.twitter.com/satvik_codes">
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/satvikchachra">
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+
     <script src="js/main.js"></script>
+    <script src="https://use.fontawesome.com/f307a533b4.js"></script>
 
 </body>
 
