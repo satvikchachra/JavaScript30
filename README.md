@@ -19,3 +19,6 @@
 * [Challenge 16](https://satvikchachra.github.io/JavaScript30/16-Mouse-Move-Shadow/)
 * [Challenge 17](https://satvikchachra.github.io/JavaScript30/17-Sort-Without-Articles/)
 * [Challenge 18](https://satvikchachra.github.io/JavaScript30/18-Adding-Up-Times-With-Reduce/)
+* [Challenge 19](https://satvikchachra.github.io/JavaScript30/19-Webcam-App/)
+* [Challenge 20](https://satvikchachra.github.io/JavaScript30/20-Speech-Detection/)
+* [Challenge 21](https://satvikchachra.github.io/JavaScript30/21-Geolocation/)
